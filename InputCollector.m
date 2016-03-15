@@ -19,6 +19,7 @@
     fgets(inputChars, 10, stdin);
     
     NSString *inputString = [NSString stringWithUTF8String:inputChars];
+    
     return inputString;
 
 }
